@@ -36,8 +36,8 @@ Part 2 of Pierres website.
 
 ## Known Bugs
 
-- At VendorOrder/Views/Vendor/Show.cshtml, I added a header button to go back to Index.cshtml, but the origional button at bottom of body will not go away, even know I deleted it. If clicked, it brings you to a "Hello World" file Might be a cache issue on operator side.
-- localhost:5000 and localhost:5001 are showing different things. "localhost: 5001" is the intended look, whereas localhost: 5000 does not have proper background color for body.
+- At VendorOrder/Views/Vendor/Show.cshtml, I added a header button to go back to Index.cshtml, but the origional button at bottom of body will not go away, even know I deleted it. If clicked, it brings you to a "Hello World" file Might be a cache issue on operator side. Unable to try and replicate it on any other devices.
+- localhost:5000 and localhost:5001 are showing different things. "localhost: 5001" is the intended look, whereas localhost: 5000 does not have proper background color for body. As with the first bug, I am pretty sure that is a cache issue on user side. Unable to try and replicate it on any other devices.
 
 ## License
 
